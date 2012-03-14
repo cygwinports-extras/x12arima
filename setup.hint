@@ -1,0 +1,7 @@
+category: Math
+requires: libgcc1 libgfortran3
+sdesc: "Statistical software for seasonal adjustments"
+ldesc: "X-12-ARIMA is the widely used seasonal adjustment software 
+produced, distributed, and maintained by the Census Bureau. It is used 
+for all official seasonal adjustments produced by the U.S. Census 
+Bureau."

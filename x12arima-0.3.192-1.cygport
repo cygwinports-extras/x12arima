@@ -1,0 +1,17 @@
+
+HOMEPAGE="http://www.census.gov/srd/www/x12a/"
+SRC_URI="http://www.census.gov/ts/x12a/v03/unix/omegav03src.tar.gz
+	 http://www.census.gov/ts/x12a/v03/unix/docsv03.tar.gz"
+SRC_DIR=.
+
+src_compile() {
+	lndirs
+	cd ${B}
+	cygmake -f makefile.lnx FC=${FC} LINKER=${FC} FFLAGS="${FFLAGS}"
+}
+
+src_install() {
+	cd ${B}
+	dobin x12a.exe
+	dodoc docs/*.pdf
+}
