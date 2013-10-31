@@ -1,4 +1,11 @@
-
+NAME="x12arima"
+VERSION=0.3.192
+RELEASE=1
+CATEGORY="Math"
+SUMMARY="Statistical software for seasonal adjustments"
+DESCRIPTION="X-12-ARIMA is the widely used seasonal adjustment software
+produced, distributed, and maintained by the Census Bureau. It is used for
+all official seasonal adjustments produced by the U.S. Census Bureau."
 HOMEPAGE="http://www.census.gov/srd/www/x12a/"
 SRC_URI="http://www.census.gov/ts/x12a/v03/unix/omegav03src.tar.gz
 	 http://www.census.gov/ts/x12a/v03/unix/docsv03.tar.gz"
